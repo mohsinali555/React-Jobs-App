@@ -1,4 +1,3 @@
-import { BsDisplay } from "react-icons/bs";
 import ClipLoader from "react-spinners/ClipLoader";
 
 const override = {
@@ -16,5 +15,4 @@ const Spinner = ({ loading }) => {
     />
   );
 };
-
 export default Spinner;
