@@ -13,7 +13,7 @@ import AddJobPage from "./pages/AddJobPage";
 import EditJobPage from "./pages/EditJobPage";
 
 const App = () => {
-  // Add New Job
+  // Add the New Job
   const addJob = async (newJob) => {
     const res = await fetch("/api/jobs", {
       method: "POST",
@@ -25,7 +25,7 @@ const App = () => {
     return;
   };
 
-  // Delete Job
+  // Delete the Job
   const deleteJob = async (id) => {
     const res = await fetch(`/api/jobs/${id}`, {
       method: "DELETE",
@@ -33,7 +33,7 @@ const App = () => {
     return;
   };
 
-  // Update Job
+  // Update the Job
   const updateJob = async (job) => {
     const res = await fetch(`/api/jobs/${job.id}`, {
       method: "PUT",
