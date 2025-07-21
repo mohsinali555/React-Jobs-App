@@ -1,12 +1,9 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A responsive job listing frontend built while learning modern React. This project covers key React fundamentals including components, props, state, hooks, routing, and CRUD operations using a JSON server. Styled with Tailwind CSS and structured with React Router.
+Features:
+Component-based architecture
+useState & useEffect hooks
+Dynamic routing with React Router
+JSON server for mock backend
+Add, edit, delete job listings
+Toast notifications with React Toastify
+Tailwind CSS for UI styling
