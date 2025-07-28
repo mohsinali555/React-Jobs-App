@@ -7,6 +7,7 @@ const JobListing = ({ job }) => {
 
   let description = job.description;
 
+  // to manage descriptions in search
   if (!showFullDescription) {
     description = description.substring(0, 90) + "...";
   }
